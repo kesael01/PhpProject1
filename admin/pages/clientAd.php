@@ -7,7 +7,7 @@
 //récupération des destinations
 $vue = new ClientDB($cnx);
 $liste = array();
-//$liste = null;
+$liste = null;
 
 $liste = $vue->getClient();
 $nbr = count($liste);
